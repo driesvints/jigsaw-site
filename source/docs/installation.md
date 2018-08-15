@@ -98,5 +98,5 @@ Jigsaw uses Laravel Mix to compile the JavaScript and CSS assets, make sure Node
 ```
 $ npm install
 ```
-to get install Jigsaw’s Node dependencies. [Read more about compiling assets with Laravel Mix here.](/docs/compiling-assets)
+to install Jigsaw’s Node dependencies. [Read more about compiling assets with Laravel Mix here.](/docs/compiling-assets)
 
