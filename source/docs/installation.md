@@ -82,15 +82,21 @@ By default, Jigsaw gives you the following directory structure:
     <div class="file">package.json</div>
     <div class="file">webpack.mix.js</div>
 </div>
-
-The `/source` directory contains the actual contents of your site. This is where all of your site's pages, CSS, Javascript, images, etc. will be kept.
-
-At the root of the directory, Jigsaw provides a `config.php` file where you can specify configuration settings for your site, along with `webpack.mix.js` for settings related to compiling your assets.
-
-Next, learn about [building and previewing your site](/docs/building-and-previewing).
-
 ---
 
 > Why are there two `assets` directories in `/source`, one prefixed with an underscore? <br>Find out in the [Compiling Assets](/docs/compiling-assets) section.
 
 ---
+
+The `/source` directory contains the actual contents of your site. This is where all of your site's pages, CSS, Javascript, images, etc. will be kept.
+
+At the root of the directory, Jigsaw provides a `config.php` file where you can specify configuration settings for your site, along with `webpack.mix.js` for settings related to compiling your assets.
+
+### 4. Node.js &amp; NPM
+
+Jigsaw uses Laravel Mix to compile the JavaScript and CSS assets, make sure Node.js and NPM are installed on your system, and run
+```
+$ npm install
+```
+to get install Jigsaw’s Node dependencies. [Read more about compiling assets with Laravel Mix here.](/docs/compiling-assets)
+
